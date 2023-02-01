@@ -1,6 +1,6 @@
 beautifulsoup4==4.11.1
 colorama==0.4.4
 easygui==0.98.3
-forecolors7
+forecolor5
 fake_useragent==0.1.11
 requests==2.24.0
