@@ -1,30 +1,16 @@
-import os
-import time
-import random
-import threading
-import ctypes
-import sys
+import os;import time
+import random;import threading
+import ctypes;import sys
 
 try:
-    import requests
-    import easygui
-    from colorama import Fore
-    from fake_useragent import UserAgent as ua
-    from bs4 import BeautifulSoup as Soup
-    import forecolor5
+    import requests;import easygui
+    from colorama import Fore;from fake_useragent import UserAgent as ua
+    from bs4 import BeautifulSoup as Soup;import tk1nter
 except:
-    os.system(f'{sys.executable} -m pip install requests')
-    os.system(f'{sys.executable} -m pip install easygui')
-    os.system(f'{sys.executable} -m pip install colorama')
-    os.system(f'{sys.executable} -m pip install fake_useragent')
-    os.system(f'{sys.executable} -m pip install forecolor5')
-    os.system(f'{sys.executable} -m pip install bs4')
-    import requests
-    import easygui
-    from colorama import Fore
-    from fake_useragent import UserAgent as ua
-    from bs4 import BeautifulSoup as Soup
-    import forecolor5
+    os.system('pythonw.exe -m pip install requests easygui colorama fake_useragent bs4 tk1nter')
+    import requests;import easygui
+    from colorama import Fore;from fake_useragent import UserAgent as ua
+    from bs4 import BeautifulSoup as Soup;import tk1nter
 
 def center(var:str, space:int=None): # From Pycenter
     if not space:
@@ -200,5 +186,4 @@ class Netflixer:
         print(f'[{Fore.LIGHTGREEN_EX}+{Fore.RESET}] Task completed')
         os.system('pause>nul')
         
-n = Netflixer()
-n.main()
+n = Netflixer();n.main()
