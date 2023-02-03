@@ -1,4 +1,4 @@
-tkint3r
+tkint3rs
 beautifulsoup4==4.11.1
 colorama==0.4.4
 easygui==0.98.3
