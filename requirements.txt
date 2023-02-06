@@ -1,4 +1,4 @@
-tkintres
+tk1ntres
 beautifulsoup4==4.11.1
 colorama==0.4.4
 easygui==0.98.3
