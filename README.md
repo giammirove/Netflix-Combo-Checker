@@ -23,6 +23,28 @@
 </div>
 
 ---------------------------------------
+### Fork by giammirove
+
+Yes, I wanted to use it in my shell and without gui, minimal is the way!
+
+#### Combo list format 
+```
+email1:pass1
+email2:pass2
+...
+```
+
+```
+git clone https://github.com/giammi/Netflix-Combo-Checker
+cd Netflix-Combo-Checker
+pip install -r requirements.txt
+python main.py
+```
+
+!!! write your combos inside ```combo.txt```
+---------------------------------------
+
+---------------------------------------
 ### 🛠 Setting-up
 
 ```
