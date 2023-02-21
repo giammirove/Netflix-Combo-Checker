@@ -9,11 +9,6 @@
 ---------------------------------------
   
 <div align="center">
-  <a href="https://github.com/kimberlyggm9am8/Netflix-Combo-Checker">
-    <img src="demo.png">
-  </a>
-  
-
   <p align="center">
     <br />
     <a href="https://github.com/kimberlyggm9am8/Netflix-Combo-Checker/issues">Report Bug</a>
